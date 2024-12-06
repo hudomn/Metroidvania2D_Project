@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8425dd8dd1a9d404188f4492dea4f695, type: 3}
+  m_Name: Golden ring
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Golden ring
+  icon: {fileID: -878758905, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  dropChance: 0
+  equipmentType: 2
+  itemCooldown: 0
+  itemEffects: []
+  strength: 13
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 9
+  critChance: 7
+  critPower: 9
+  health: 6
+  armor: 4
+  evasion: 7
+  magicResistance: 17
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: ba10e7d982ec40a4b9b69eb691fc951d, type: 2}
+    stackSize: 5
