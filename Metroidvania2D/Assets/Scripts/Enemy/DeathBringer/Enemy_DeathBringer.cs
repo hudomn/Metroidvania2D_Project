@@ -89,7 +89,7 @@ public class Enemy_DeathBringer : Enemy
     
 
     protected override void OnDrawGizmos()
-    {
+    {   
         base.OnDrawGizmos();
         Gizmos.DrawLine(transform.position,new Vector3(transform.position.x,transform.position.y-GroundBelow().distance));
         Gizmos.DrawWireCube(transform.position, surroundingCheckSize);

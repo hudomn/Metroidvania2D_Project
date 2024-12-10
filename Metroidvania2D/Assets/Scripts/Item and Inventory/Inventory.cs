@@ -258,7 +258,7 @@ public class Inventory : MonoBehaviour,ISaveManager
             {
                 if (stashValue.stackSize < _requiredMaterial[i].stackSize)
                 {
-                    Debug.Log("Not enough materials");
+                    Debug.Log("材料不够");
                     return false;
                 }
                 else
@@ -268,7 +268,7 @@ public class Inventory : MonoBehaviour,ISaveManager
             }
             else
             {
-                Debug.Log("not enough materials");
+                Debug.Log("材料不足");
                 return false;
             }
         }
@@ -279,7 +279,7 @@ public class Inventory : MonoBehaviour,ISaveManager
         }
 
         AddItem(_itemToCraft);
-        Debug.Log("Here is your item" + _itemToCraft.name);
+        Debug.Log("物品" + _itemToCraft.name);
 
         return true;
     }
